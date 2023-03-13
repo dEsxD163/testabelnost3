@@ -1,6 +1,6 @@
 public class CreditPaymentService {
-    public int calculate(int ostatok, double procenti, int period) {
-        int result = (int) (ostatok * (procenti / (1 - Math.pow((1 + procenti), period))));
+    public int calculate(int remainder, double interest, int term) {
+        int result = (int) (remainder * (interest / (1 - Math.pow((1 + interest), -term))));
         return result;
     }
 }
