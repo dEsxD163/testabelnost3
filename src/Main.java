@@ -9,10 +9,10 @@ public class Main {
         int answer = service.calculate(remainder, interest, term); // answer = ответ для 12 месяцев
         int answer1 = service.calculate(remainder, interest, term1); // answer1 = ответ для 24 месяцев
         int answer2 = service.calculate(remainder, interest, term2); // answer1 = ответ для 36 месяцев
-        // P.S. Я написал решение для каждого срока отдельно, чтобы потом вывести ответ для всех отдельно.
-        System.out.println("Средний платёж на 12 месяцев:" +answer+"(рублей)");
-        System.out.println("Средний платёж на 24 месяцев:" +answer1+"(рублей)");
-        System.out.println("Средний платёж на 36 месяцев:" +answer2+"(рублей)");
+        // P.S. Я написал решение для каждого срока отдельно, чтобы потом вывести ответ(answer,answer1,answer2) для всех отдельно.
+        System.out.println("Средний платёж на 12 месяцев:" + answer + "(рублей)");
+        System.out.println("Средний платёж на 24 месяцев:" + answer1 + "(рублей)");
+        System.out.println("Средний платёж на 36 месяцев:" + answer2 + "(рублей)");
 
     }
 }
